@@ -1,0 +1,32 @@
+[
+  "OR",
+  [
+    "AND",
+    [
+      "==",
+      "$State",
+      "Alabama"
+    ],
+    [
+      "==",
+      "$Profession",
+      "Software development"
+    ]
+  ],
+  [
+    "AND",
+    [
+      "==",
+      "$State",
+      "Texas"
+    ]
+  ],
+  [
+    "OR",
+    [
+      "==",
+      "$Profession",
+      "Tradesperson"
+    ]
+  ]
+]
